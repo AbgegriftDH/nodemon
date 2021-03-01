@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  <client>.user.setActivity('made by AbgegriftDH', { type: 'LISTENING' });
+  client.user.setActivity('made by AbgegriftDH', { type: 'LISTENING' });
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
